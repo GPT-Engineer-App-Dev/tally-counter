@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Text fontSize="4xl" fontWeight="bold">Counter App!!!</Text>
+        <Text fontSize="4xl" fontWeight="bold">Counter App</Text>
         <Text fontSize="2xl">{count}</Text>
         <HStack spacing={4}>
           <Button colorScheme="teal" onClick={increment}>Increment</Button>
