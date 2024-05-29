@@ -4,11 +4,8 @@ const main = async () => {
   const onMessage = (event) => {
     // TODO: Check origin
     const data = event.data;
-    console.log(data);
-    console.log(event.source, event.origin)
 
     if (!data.id) return;
-    
 
     if (data.type === "GET_USER_SNAPSHOT") {
          toPng(document.body)
